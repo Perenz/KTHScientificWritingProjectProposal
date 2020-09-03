@@ -9,5 +9,11 @@
 *.bcf
 *.xml
 *.gz
+*.acn
+*.dvi
+*.glo
+*.ist
+*.out.ps
+*.bst
 *.fls
 *.fdb_latexmk
