@@ -1,0 +1,7 @@
+\section{Tasks}
+\label{sect:tasks}
+%TC:ignore
+\todo[inline]{Describe the tasks and sub tasks that are necessary to complete the work. Grouped into a work breakdown structure. For example:}
+%TC:endignore
+
+A simple multicast file server and a corresponding client will be implemented. A number of instances of the client will be executed with different starting times, but starting within \SI{30}{\second} of each other. Our test file will be a file of sufficient size to require more than \SI{30}{\second} to transmit when transported using \gls{UDP} datagrams via a \SI{10}{Mbps} wired Ethernet. This file will contain a series of pseudo-random bytes. The total number of datagrams transmitted by all of the nodes will be compared when using positive \glspl{ACK} and when only generating \glspl{NACK}. The number of clients will vary from 1 to 1025, in increments of 8 clients.
