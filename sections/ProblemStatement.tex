@@ -1,0 +1,7 @@
+\section{Problem statement}
+\label{sect:problem_statement}
+%TC:ignore
+\todo[inline]{Describe the problem(s) that have been found in the area described in the background. Describe the problem area (in detail). For example:}
+%TC:endignore
+
+The project will investigate how to avoid so-called “acknowledgement implosion” when distributing a file using multicast. If all of the nodes that successfully receive a packet were to acknowledge it, then the sender would receive a very large number of \glspl{ACK}, when it fact it is most interested in understanding which node did not receive the packet, hence to which node (or nodes) it should retransmit the packet.
