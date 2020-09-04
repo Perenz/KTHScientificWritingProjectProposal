@@ -1,4 +1,4 @@
-  
+main.pdf
 .DS_Store
 *.toc
 *.bbl
@@ -17,4 +17,3 @@
 *.bst
 *.fls
 *.fdb_latexmk
-main.pdf
